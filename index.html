@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Foodie Express</title>
+</head>
+
+<header>
+    <img src="menu.png" style=" padding-left: 10px; cursor: pointer;" onclick="openNav()" >
+    <a href="cart.html"><img src="cart.png" class="cart"></a>
+</header>
+<body>
+    <div>
+    <img src="banner.jpg" width="1366px" height="250px">
+    <p class="titlename">Foodie Express</p>
+    <p class="subtitletext">Whatever you want,</p>
+    <p class="subtitletext2">Wherever you want.</p>
+    </div>
+
+    <p class="todaysdeals">Today's Deals</p>
+    <img class="deal1" src="deal1.png" height="190px" width="300px">
+    <img class="deal2" src="deal2.png" height="190px" width="300px">
+    <img src="deal3.png" height="190px" width="300px">
+    <p class="prices" style="left: 30px;">Wings Deal</p>
+    <p class="prices" style="top: 565px; left: 30px;">999PKR</p>
+    <p class="prices" style="left: 525px;">Burger Deal</p>
+    <p class="prices" style="top: 565px; left: 525px;">799PKR</p>
+    <p class="prices" style="left: 1020px;">Shawarma Deal</p>
+    <p class="prices" style="top: 565px; left: 1020px;">699PKR</p>
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+
+</body>
+
+</html>
